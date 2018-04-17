@@ -19,6 +19,18 @@ function pressIt (){
   });
 }
 
+function submitIt (){
+  $('form').on('submit', function (key){
+    if (key === 13){
+      alert('Your form is going to be submitted now.');
+    }
+  });
+}
+
+
+
+
+
 $(document).ready(function(){
 
 // call functions here
