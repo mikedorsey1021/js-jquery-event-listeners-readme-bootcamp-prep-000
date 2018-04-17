@@ -1,7 +1,7 @@
 //define functions here
 funciton getIt (){
   $('p').on('click', function (){
-    alert('Hey!'); 
+    alert('Hey!');
   });
 }
 
@@ -9,5 +9,5 @@ funciton getIt (){
 $(document).ready(function(){
 
 // call functions here
-
+getIt(); 
 });
