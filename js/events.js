@@ -21,7 +21,7 @@ function pressIt (){
 
 function submitIt (){
   $('form').on('submit', function (key){
-    if (key == 13){
+    if (key.which == 13){
       alert('Your form is going to be submitted now.');
     }
   });
